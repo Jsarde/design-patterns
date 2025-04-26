@@ -3,21 +3,31 @@ repos:
   rev: v5.0.0
   hooks:
   - id: check-ast
+    description: Validates Python files are valid syntax
   - id: check-yaml
+    description: Validates YAML files are properly formatted
   - id: detect-private-key
+    description: Checks for presence of private keys in files
   - id: check-added-large-files
+    description: Prevents giant files from being committed
   - id: requirements-txt-fixer
+    description: Sorts entries in requirements.txt files
   - id: end-of-file-fixer
+    description: Makes sure files end in a newline and only a newline
   - id: trailing-whitespace
+    description: Trims trailing whitespace from line endings
 
 - repo: https://github.com/asottile/reorder-python-imports
   rev: v3.14.0
   hooks:
   - id: reorder-python-imports
+    description: Reorders Python imports according to PEP8 guidelines
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
   rev: v0.11.6
   hooks:
     - id: ruff
       args: [ --fix ]
+      description: Runs the Ruff linter with auto-fixes
     - id: ruff-format
+      description: Formats Python code using Ruff's formatter
