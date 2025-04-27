@@ -1,19 +1,23 @@
 # Design patterns
 This repository contains all the notes and knowledge learned during my journey of discovering and exploring design patterns.
 
-## I.	Intro
+- [👋 Overview](#-overview)
+- [⚖️ PROs - CONs](#️-pros---cons)
+- [🗂️ Categories](#️-categories)
+
+## 👋 Overview
 Design patterns are reusable solutions to common problems that arise during software development.
 
 They represent distilled wisdom from countless software projects, offering solutions that have stood the test of time and continue to guide modern software architecture.
 
 The concept was introduced by the 1994 book "Design Patterns: Elements of Reusable Object-Oriented Software".
 
-## II.	PROs - CONs
+## ⚖️ PROs - CONs
 The best software engineers understand when to apply design patterns and when a simpler solution might be more appropriate.
 
 The key is to view patterns as tools in your toolkit rather than mandatory solutions for every problem.
 
-### A.  PROs
+### PROs
 | Advantage              | Description                                                                                   |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Proven Solutions       | Refined by multiple experienced developers over years of practice on various projects.        |
@@ -24,7 +28,7 @@ The key is to view patterns as tools in your toolkit rather than mandatory solut
 | Scalability            | Designed to help applications scale efficiently as requirements grow.                          |
 | Adaptability           | Specifically designed to make systems more adaptable to future changes.                       |
 
-### B.  CONs
+### CONs
 | Disadvantage               | Description                                                                                                               |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Complexity                 | May introduce unnecessary complexity if applied to simple problems or used prematurely (over-engineering).               |
@@ -35,7 +39,7 @@ The key is to view patterns as tools in your toolkit rather than mandatory solut
 | Context Insensitivity      | Patterns developed in one context (like object-oriented languages) may not translate well to other paradigms or languages.|
 | Performance Impact         | Adding abstraction layers can affect application performance.                                                             |
 
-## III.	Categories
+## 🗂️ Categories
 There are 22 design patterns and they generally fall into three main categories:
 
 ### 1. Creational Patterns
