@@ -46,7 +46,7 @@ There are 22 design patterns and they generally fall into three main categories:
 Object creation mechanisms. They abstract the instantiation process, making systems independent of how their objects are created, composed, and represented.
 
 - **Singleton:** Ensures a class has only one instance and provides a global point of access to it.
-- **Factory Method:** Creates objects without specifying the exact class of object that will be created.
+- **Factory Method:** Defines an interface for creating objects, but lets subclasses decide which class to instantiate.
 - **Builder:** Separates the construction of a complex object from its representation.
 - **Prototype:** Creates new objects by copying an existing object.
 
