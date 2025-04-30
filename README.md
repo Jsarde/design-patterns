@@ -48,7 +48,7 @@ Object creation mechanisms. They abstract the instantiation process, making syst
 - **Singleton:** Ensures a class has only one instance and provides a global point of access to it.
 - **Factory Method:** Defines an interface for creating objects, but lets subclasses decide which class to instantiate.
 - **Builder:** Separates the construction of a complex object from its representation.
-- **Prototype:** Creates new objects by copying an existing object.
+- **Prototype:** Creates new objects by copying an existing one.
 
 ### 2. Structural Patterns
 Object composition mechanisms. How classes and objects are composed to form larger structures, focusing on simplifying the structure by identifying relationships.
